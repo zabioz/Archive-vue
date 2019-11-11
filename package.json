@@ -1,0 +1,21 @@
+{
+  "name": "vueNuxt",
+  "version": "1.0.0",
+  "description": "My lovely Nuxt.js project",
+  "author": "leegibeom",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "vue-google-charts": "^0.3.2",
+    "vue-i18n": "^8.14.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
