@@ -1,5 +1,5 @@
 <template class="font">
-  <section class="container">
+  <section>
     
     <hr>
     <h2>会社概要</h2>

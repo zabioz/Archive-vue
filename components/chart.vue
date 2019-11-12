@@ -29,10 +29,10 @@ export default {
                 '#DB9A7A'
                 ],
                 backgroundColor:{
-                    fill:'#424242'
+                    fill:'transparent'
                 },
                 legend:{
-                    textStyle: {color: 'white'}
+                    textStyle: {color: '#1C1F24'}
                 }
       }
     };

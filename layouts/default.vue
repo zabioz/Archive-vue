@@ -1,12 +1,11 @@
 <template>
   <v-app >
     <Header/>
+    <v-flex class="pa-5">
     <v-content>
-      <v-container>
         <nuxt />
-      </v-container>
     </v-content>
-    
+    </v-flex>
     <v-footer>
     <v-flex row justify-center class="footer">
     <li>株式会社アーカイブ</li>
