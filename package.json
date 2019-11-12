@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "fs": "0.0.1-security",
     "nuxt": "^2.0.0",
     "vue-google-charts": "^0.3.2",
     "vue-i18n": "^8.14.1"
