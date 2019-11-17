@@ -1,6 +1,6 @@
 <template class="font">
-  <section>
-    
+  <section class="container">
+    <Header/>
     <hr>
     <h2>会社概要</h2>
     <span>変化が激しい時代において、当社は高い技術力とグローバル感覚を併せ持ったＩＴエンジニア集団として日々進化し、ＩＴ技術を通じて皆様と共に成長できる会社になることを目指しています。</span>
@@ -53,10 +53,18 @@
 </v-flex>
 <h3>保有スキル（言語）</h3>
 <skillsheet />
+  <v-footer>
+    <v-flex row justify-center class="footer">
+      <li>株式会社アーカイブ</li>
+      <li>115-0045 東京都北区赤羽3-22-6-102</li>
+      <li>tel:03-5939-4070</li>
+      <li>info@archive-asia.co.jp</li>
+    </v-flex>
+  </v-footer>
   </section>
-   
 </template>
 <script>
+import Header from '../components/Header'
 import skillsheet from "../components/skillsheet"
 import membertable from "../components/membertable"
 import workinfo from "../components/workinfo"
@@ -64,6 +72,7 @@ import chart2 from "../components/chart2"
 import chart from "../components/chart"
 export default {
   components: {
+      Header,
       skillsheet,
       chart2,
       chart,
