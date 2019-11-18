@@ -1,6 +1,6 @@
-<template>
+<template >
   <v-app >
-    <v-flex class="pa-5">
+    <v-flex class="pa-5" >
     <v-content>
         <nuxt />
     </v-content>
@@ -40,7 +40,9 @@ export default {
 }
 </script>
 <style>
-
+#app{
+background-color:"white"
+}
 .footer li{
   padding:0.3em;
   list-style: none;
