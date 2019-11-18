@@ -9,12 +9,11 @@
 <p>Vuetify</p>
 
 <h1>Start</h1>
-```
 $ npm run install
 
 $ npm run dev
 
-screeshot
+<h1>screeshot</h1>
 
 <h3>Top画面</h3>
 ![test](https://github.com/zabioz/Archive-vue/blob/design/screeshot/top.png)
