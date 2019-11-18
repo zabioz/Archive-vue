@@ -1,9 +1,9 @@
 <template >
-    <v-card class="content ma-2" outlined>
-      <v-list-item two-line v-for="n in item">
+    <v-card class="ma-2" outlined >
+      <v-list-item three-line v-for="n in item">
         <v-list-item-content>
         <v-list-item-title> {{n.title}} </v-list-item-title>
-        <v-list-item-subtitle> {{n.content}} </v-list-item-subtitle>
+        <v-list-item-subtitle > {{n.content}} </v-list-item-subtitle>
       </v-list-item-content>
       </v-list-item>
     </v-card>
@@ -38,9 +38,8 @@ data: function(){
 }
 </script>
 <style>
-.content{
-    height:auto;
-    word-break: keep-all;
+item{
+    word-break: break-all;
 }
 
 

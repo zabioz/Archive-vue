@@ -1,10 +1,11 @@
 <template>
 
     <GChart
-      class="chart ma-2"
+      class="chart"
       type="PieChart"
       :data="chartData"
       :options="chartOptions"
+      style="width: 400px; height: 250px;"
     />
 
 </template>
@@ -29,10 +30,10 @@ export default {
                 '#DB9A7A'
                 ],
                 backgroundColor:{
-                    fill:'#424242'
+                    fill:'transparent'
                 },
                 legend:{
-                    textStyle: {color: 'white'}
+                    textStyle: {color: '#1C1F24'}
                 }
       }
     };
@@ -41,9 +42,4 @@ export default {
 </script>
 <style>
 
-.chart{
-    width:350px;
-    height:400px;
-   
-}
 </style>

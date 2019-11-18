@@ -1,36 +1,35 @@
-<template class="font">
-  <section class="container">
+<template >
+  <section class="font">
+    <Header/>
     
-    <hr>
-    <h2>会社概要</h2>
+    <h2>会社概要<hr></h2>
+    
     <span>変化が激しい時代において、当社は高い技術力とグローバル感覚を併せ持ったＩＴエンジニア集団として日々進化し、ＩＴ技術を通じて皆様と共に成長できる会社になることを目指しています。</span>
     <membertable />
-    <h2>組織図</h2>
-    <span @click="wordtime">
-      tt {{today}}  
-    </span>
-    <span @click="startime">
-      ss {{totime}}
-    </span>
+    <h2>組織図<hr></h2>
+    <memberchart />
     <v-img
     position
-    max-width="700"  
+    max-width="700"
     max-height="1000"
     src="https://zabioz.github.io/Archive_HP/img/4.png"
     > 
     </v-img>
-    <h2> 沿革 </h2>
+    <h2> 沿革 <hr></h2>
+    
     <v-img
     position
-    max-width="800"  
+    max-width="800"
     max-height="1100"
     src="https://zabioz.github.io/Archive_HP/img/3.png"
     >
     </v-img>
-    <h2> 事業紹介 </h2>
+    <h2> 事業紹介 <hr></h2>
+    
     <workinfo />
     
-    <h2>当社のエンジニア人物像／技術分野等</h2>
+    <h2>当社のエンジニア人物像／技術分野等<hr></h2>
+    
     <span>当社はアーカイブスタイルと称し、以下のような考え・行動ができるエンジニアの育成に力を入れています。</span>
     
         <h3>アーカイブスタイル</h3>
@@ -51,19 +50,23 @@
 <chart />
 <chart2 />
 </v-flex>
-<h3>保有スキル（言語）</h3>
+<h3>保有スキル（言語）<hr></h3>
+
 <skillsheet />
   </section>
-   
 </template>
 <script>
-import skillsheet from "../components/skillsheet"
-import membertable from "../components/membertable"
-import workinfo from "../components/workinfo"
-import chart2 from "../components/chart2"
-import chart from "../components/chart"
+import memberchart from '../components/JP/member_chart'
+import Header from '../components/JP/Header'
+import skillsheet from "../components/JP/skillsheet"
+import membertable from "../components/JP/member_table"
+import workinfo from "../components/JP/workinfo"
+import chart2 from "../components/JP/chart2"
+import chart from "../components/JP/chart"
 export default {
   components: {
+      memberchart,
+      Header,
       skillsheet,
       chart2,
       chart,
@@ -73,9 +76,7 @@ export default {
   data: function(){
     return {
       title: '株式会社アーカイブ',
-      subtitle: '進化するエンジニアグループ',
-      today:"",
-      totime:""
+      subtitle: '進化するエンジニアグループ'
     }
   },
   // created: function(){
@@ -92,20 +93,29 @@ export default {
 
 </script>
 <style>
+
 .content{
     height:auto;
     word-break: break-all;
 }
 h2{
-  padding:0.5em
+  padding:0.5em;
+  color:rgba(0, 0, 0, 0.87);
 }
 h3{
-  padding:0.5em
+  padding:0.5em;
+   color:rgba(0, 0, 0, 0.87);
 }
 span{
   padding:1em;
+  color:rgba(0, 0, 0, 0.54);
 }
 .font{
-  font-family: 'Hiragino Kaku Gothic ProN' 'sans-serif' 'Arial';
+  font-family: 'Hiragino Kaku Gothic ProN';
+}
+hr{
+  background-color:rgba(0, 0, 0, 0.205);
+  border:none;
+  height:1px;
 }
 </style>
