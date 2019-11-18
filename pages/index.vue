@@ -17,7 +17,7 @@
     max-width="700"  
     max-height="1000"
     src="https://zabioz.github.io/Archive_HP/img/4.png"
-    >
+    > 
     </v-img>
     <h2> 沿革 </h2>
     <v-img
