@@ -33,6 +33,7 @@
 
 <h3>次の作業</h3>
 <p>こちらのイメージはデザインを縦から横の形で変更してコードで作る予定です（Vuetifyのtimeline機能で）</p>
+
 ![test](https://github.com/zabioz/Archive-vue/blob/design/screeshot/schedule.png)
 
 
