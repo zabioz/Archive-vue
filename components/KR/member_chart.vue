@@ -28,7 +28,7 @@
 </div>
 
 
-    <div class="tree d-flex flex-column" style="align-items:center">
+    <div class="d-flex flex-column" style="align-items:center">
     <v-chip label color="primary" >
         監査役
     </v-chip>
@@ -112,6 +112,9 @@ export default {
 .tree li:first-child::before, .tree li:last-child::after{
     border: 0 none;
 }
+
+
+
 
 .line{
     display: flex;

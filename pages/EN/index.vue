@@ -2,14 +2,19 @@
   <section class="font">
     <Header/>
     
-    <h2>会社概要<hr></h2>
+    <h2>Company Profile<hr></h2>
     
     <span>変化が激しい時代において、当社は高い技術力とグローバル感覚を併せ持ったＩＴエンジニア集団として日々進化し、ＩＴ技術を通じて皆様と共に成長できる会社になることを目指しています。</span>
     <membertable />
     <h2>組織図<hr></h2>
     <memberchart />
-    
-    
+    <v-img
+    position
+    max-width="700"
+    max-height="1000"
+    src="https://zabioz.github.io/Archive_HP/img/4.png"
+    > 
+    </v-img>
     <h2> 沿革 <hr></h2>
     <!--Time Line-->
     <Tline />
@@ -53,14 +58,14 @@
   </section>
 </template>
 <script>
-import Tline from '../components/JP/Tline'
-import memberchart from '../components/JP/member_chart'
-import Header from '../components/JP/Header'
-import skillsheet from "../components/JP/skillsheet"
-import membertable from "../components/JP/member_table"
-import workinfo from "../components/JP/workinfo"
-import chart2 from "../components/JP/chart2"
-import chart from "../components/JP/chart"
+import Tline from '../../components/JP/Tline'
+import memberchart from '../../components/JP/member_chart'
+import Header from '../../components/JP/Header'
+import skillsheet from "../../components/JP/skillsheet"
+import membertable from "../../components/JP/member_table"
+import workinfo from "../../components/JP/workinfo"
+import chart2 from "../../components/JP/chart2"
+import chart from "../../components/JP/chart"
 export default {
   components: {
       Tline,

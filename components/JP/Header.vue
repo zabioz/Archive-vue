@@ -10,7 +10,7 @@
          <v-list-item
           v-for="(language, index) in language_list"
           :key="index"
-          @click=""
+          @click="click_language(index)"
          > 
          <v-list-item-title>
            {{language.title}}
@@ -61,6 +61,18 @@ export default {
         {title: "English"}
       ],
   }),
+methods:{
+  click_language(index){
+    if(index == 0){
+      this.$router.push(`/`)
+    } else if(index == 1){
+      this.$router.push(`/KR`)
+    } else {
+      this.$router.push(`/EN`)
+    }
+  }
+}
+
 };
 </script>
 <style>
