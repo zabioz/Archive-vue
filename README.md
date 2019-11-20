@@ -24,7 +24,7 @@
 
 ![test](https://github.com/zabioz/Archive-vue/blob/design/screeshot/top2.png)
 
-<p>右上にボタンを追加して、クリックしたら言語を選択できるメニューが表示します（まだ、機能はしません）</p>
+<p>右上にボタンを追加して、クリックしたら言語を選択できるメニューが表示します</p>
 
 <h3>作業中</h3>
 <p>imgの組織図をコードで作る予定でしたが、難しい所もあるんですが内容が変わるくらいにデザインが変な所になるので、結局イメージを使うと思います。</p>
@@ -32,9 +32,9 @@
 ![test](https://github.com/zabioz/Archive-vue/blob/design/screeshot/ing.png)
 
 <h3>次の作業</h3>
-<p>こちらのイメージはデザインを縦から横の形で変更してコードで作る予定です（Vuetifyのtimeline機能で）</p>
+<p>Vuetifyのtimelineで変更</p>
 
-![test](https://github.com/zabioz/Archive-vue/blob/design/screeshot/schedule.png)
+![test](https://github.com/zabioz/Archive-vue/blob/Dev/screeshot/history.png)
 
 
 <h3>chart</h3>
