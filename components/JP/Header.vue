@@ -70,10 +70,9 @@ methods:{
     } else {
       this.$router.push(`/EN`)
     }
-    
-    
   }
 }
+
 };
 </script>
 <style>
