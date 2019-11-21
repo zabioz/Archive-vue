@@ -2,11 +2,11 @@
   <section class="font">
     <Header/>
     
-    <h2>주식회사<hr></h2>
+    <h2>회사소개<hr></h2>
     
-    <span>変化が激しい時代において、当社は高い技術力とグローバル感覚を併せ持ったＩＴエンジニア集団として日々進化し、ＩＴ技術を通じて皆様と共に成長できる会社になることを目指しています。</span>
+    <span>변화가 심한 시대에 우리는 높은 기술력과 글로벌 감각을 겸비한 IT 엔지니어 집단으로 나날이 발전하고 IT 기술을 통해 여러분과 함께 성장할 수있는 회사가 될 것을 목표로하고 있습니다.</span>
     <membertable />
-    <h2>組織図<hr></h2>
+    <h2>조직도<hr></h2>
     <memberchart />
     <v-img
     position
@@ -15,7 +15,7 @@
     src="https://zabioz.github.io/Archive_HP/img/4.png"
     > 
     </v-img>
-    <h2> 沿革 <hr></h2>
+    <h2> 연혁 <hr></h2>
     <!--Time Line-->
     <Tline />
 
@@ -26,33 +26,34 @@
     src="https://zabioz.github.io/Archive_HP/img/3.png"
     >
     </v-img> -->
-    <h2> 事業紹介 <hr></h2>
+    <h2> 사업소개 <hr></h2>
     
     <workinfo />
     
-    <h2>当社のエンジニア人物像／技術分野等<hr></h2>
+    <h2>당사의 엔지니어 인물 / 기술 분야 등<hr></h2>
     
-    <span>当社はアーカイブスタイルと称し、以下のような考え・行動ができるエンジニアの育成に力を入れています。</span>
+    <span>당사는 아카이브 스타일이라 칭하고 다음과 같은 생각과 행동을 하는 엔지니어의 육성에 힘을 쏟고 있습니다.</span>
     
-        <h3>アーカイブスタイル</h3>
+        <h3>아카이브 스타일</h3>
         <v-card class="content" outlined>
     <v-list-item>
       <v-list-item-content>
-        <v-list-item-title>ポジティブシンキング（Positive Thinking）</v-list-item-title>
-        <v-list-item-title>自発的に行動</v-list-item-title>
-        <v-list-item-title>盛んな学習（技術学習）意欲</v-list-item-title>
-        <v-list-item-title>積極的なコニュニケーション</v-list-item-title>
-        <v-list-item-title>仲間と一緒に成長する協力性</v-list-item-title>
-        <v-list-item-title>業務内容を達成できる圧倒的なスキル</v-list-item-title>
+        <v-list-item-title>긍정적 사고 (Positive Thinking)</v-list-item-title>
+        <v-list-item-title>자발적 행동</v-list-item-title>
+        <v-list-item-title>활발한 학습(기술 교육)의욕</v-list-item-title>
+        <v-list-item-title>적극적인 커뮤니케이션</v-list-item-title>
+        <v-list-item-title>동료와 함께 성장하는 협력성</v-list-item-title>
+        <v-list-item-title>업무 내용을 달성 할 수있는 압도적인 스킬</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
             </v-card>
-        
-<v-flex row justify-center>
-<chart />
-<chart2 />
-</v-flex>
-<h3>保有スキル（言語）<hr></h3>
+    <h3>현재 당사에 소속 된 엔지니어의 기술 분야 / 국적</h3>
+    <hr>
+    <v-flex row justify-center>
+    <chart />
+    <chart2 />
+    </v-flex>
+<h3>보유 기술 (언어)<hr></h3>
 
 <skillsheet />
   </section>
@@ -79,8 +80,8 @@ export default {
       },  
   data: function(){
     return {
-      title: '株式会社アーカイブ',
-      subtitle: '進化するエンジニアグループ'
+      title: '',
+      subtitle: ''
     }
   },
   // created: function(){
@@ -97,6 +98,9 @@ export default {
 
 </script>
 <style>
+.v-list-item-content{
+  padding:3px;
+}
 
 .content{
     height:auto;

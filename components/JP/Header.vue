@@ -19,7 +19,7 @@
          </v-list>
       </v-menu>
       <!--logo-->
-     <v-img max-width="35%" src="http://archive-asia.co.jp/wp-content/uploads/2016/12/logo-e1482967707769.jpg" />
+     <v-img max-width="30%" max-height="30%" src="https://github.com/zabioz/Archive-vue/blob/Dev_test/assets/img/logo.png?raw=true" />
    <!--title-->
     <v-col>
       <h1> {{head.title}} </h1>

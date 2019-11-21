@@ -26,7 +26,7 @@ data: function(){
             {title:'ETC',
             content:'SAP/R3, COBOL'
             },
-            {title:'당사에 관심을 가져 주시면 감사하겠습니다. 부담없이 연락해주십시오.',
+            {title:'We hope you are interested in our company. Please feel free to contact me.',
             content:''
             }
         ]

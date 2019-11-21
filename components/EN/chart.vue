@@ -19,9 +19,9 @@ export default {
     return {
       chartData: [
         ['contry', 'atai' ],
-        ['日本', 33.3],
-        ['韓国', 58.3],
-        ['中国', 8.3],
+        ['Japan', 33.3],
+        ['Korea', 58.3],
+        ['China', 8.3],
       ],
       chartOptions:{
               colors:[

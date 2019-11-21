@@ -14,23 +14,23 @@ export default {
 data: function(){
     return {
         item:[
-            {title: 'システム開発',
-            content: 'モバイルデバイスアプリケーション開発iOS及びAndroidデバイス向けのNativeアプリケーション開発を行っています。'
+            {title: 'System development',
+            content: 'Mobile device application development We are developing Native applications for iOS and Android devices.'
             },
-            {title:'WEBシステム開発',
-            content:'フロントエンドからバックエンドまで、要件定義から基盤設計・構築、システム開発保守運用まで、特にオープンソースフレームワークを活用したＷｅｂシステム開発を行っています。'
+            {title:'WEB System development',
+            content:'From front-end to back-end, from requirements definition to basic design and construction to system development and maintenance operations, we are developing Web systems, especially using open source frameworks.'
             },
             {title:'AI・IOT',
-            content:'ビッグデータの蓄積等をＰＣ、モバイルで実現するシステム開発を行っています。又機械学習・深層学習を活用するサービスの開発を行っています。'
+            content:'We are developing systems that realize accumulation of big data, etc. by PC and mobile. We are also developing services that utilize machine learning and deep learning.'
             },
-            {title:'ERPソリューション',
-            content:'ＥＲＰパッケージを活用したシステム開発における、設計、開発を行っています。'
+            {title:'ERP solution',
+            content:'We are designing and developing system development using ERP package.'
             },
-            {title:'COBOL開発',
-            content:'COBOLを用いての、金融機関、官公庁向け基幹システム構築、業務アプリケーション開発を行っています。'
+            {title:'COBOL development',
+            content:'We are developing core systems for financial institutions and government agencies and business application development using COBOL.'
             },
-            {title:'外国籍ＩＴエンジニア採用・活用コンサルテーション',
-            content:'当社は２０１５年から外国籍ＩＴエンジニアの採用を積極的に行っております。今までに培った外国籍ＩＴエンジニア採用・活用のノウハウをベースに、外国籍ＩＴエンジニアの積極採用・活用をお考えのお客様にコンサルテーションを行っています。'
+            {title:'Recruitment / Utilization consultation for foreign national IT engineers',
+            content:'We have been actively recruiting foreign national IT engineers since 2015. Based on the know-how on recruiting and utilizing foreign national IT engineers that we have cultivated so far, we consult with customers who are thinking of actively hiring and utilizing foreign national IT engineers.'
             }
         ]
         }
@@ -38,7 +38,7 @@ data: function(){
 }
 </script>
 <style>
-item{
+.item{
     word-break: break-all;
 }
 

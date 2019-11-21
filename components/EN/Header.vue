@@ -4,13 +4,13 @@
      <!--language menu-->
      <v-menu >
        <template v-slot:activator="{on}">
-         <v-icon style="float:right color:#5b88ee" v-on="on">language</v-icon>
+         <v-icon style="float:right;" v-on="on">language</v-icon>
          </template>
          <v-list>  
          <v-list-item
           v-for="(language, index) in language_list"
           :key="index"
-          @click=""
+          @click="click_language(index)"
          > 
          <v-list-item-title>
            {{language.title}}
@@ -19,7 +19,7 @@
          </v-list>
       </v-menu>
       <!--logo-->
-     <v-img min-width="25%" max-width="35%" src="http://archive-asia.co.jp/wp-content/uploads/2016/12/logo-e1482967707769.jpg" />
+     <v-img max-width="30%" max-height="30%" src="https://github.com/zabioz/Archive-vue/blob/Dev_test/assets/img/logo.png?raw=true" />
    <!--title-->
     <v-col>
       <h1> {{head.title}} </h1>
@@ -30,7 +30,7 @@
       <v-row justify="space-around">
         <v-col xs="4">
        <v-icon>location_on</v-icon>
-     <li>〒115-0045東京都北区赤羽3-22-6-102</li>
+     <li>〒115-0045 Akabane Kita-ku, Tokyo 3-22-6-102</li>
      </v-col>
      <v-col xs="4">
       <v-icon>phone_iphone</v-icon>
@@ -51,8 +51,8 @@
 export default {
  data: () =>({
       head:{
-        title: "株式会社アーカイブ",
-        subtitle: "進化するエンジニアグループ"
+        title: "Archive Corporation",
+        subtitle: "We are an evolving group of engineers"
       },
 
       language_list: [
@@ -61,6 +61,19 @@ export default {
         {title: "English"}
       ],
   }),
+methods:{
+  click_language(index){
+    if(index == 0){
+      this.$router.push(`/`)
+    } else if(index == 1){
+      this.$router.push(`/KR`)
+    } else {
+      this.$router.push(`/EN`)
+    }
+    
+    
+  }
+}
 };
 </script>
 <style>

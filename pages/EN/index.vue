@@ -2,11 +2,12 @@
   <section class="font">
     <Header/>
     
-    <h2>Company Profile<hr></h2>
-    
-    <span>変化が激しい時代において、当社は高い技術力とグローバル感覚を併せ持ったＩＴエンジニア集団として日々進化し、ＩＴ技術を通じて皆様と共に成長できる会社になることを目指しています。</span>
+    <h2>Company Profile</h2>
+    <hr>
+    <span>In an era of rapid change, we aim to evolve daily as an IT engineer group with high technology and global sense, and to become a company that can grow with you through IT technology.</span>
     <membertable />
-    <h2>組織図<hr></h2>
+    <h2>Organization chart</h2>
+    <hr>
     <memberchart />
     <v-img
     position
@@ -15,7 +16,8 @@
     src="https://zabioz.github.io/Archive_HP/img/4.png"
     > 
     </v-img>
-    <h2> 沿革 <hr></h2>
+    <h2> History </h2>
+    <hr>
     <!--Time Line-->
     <Tline />
 
@@ -26,46 +28,48 @@
     src="https://zabioz.github.io/Archive_HP/img/3.png"
     >
     </v-img> -->
-    <h2> 事業紹介 <hr></h2>
-    
+    <h2> Business introduction </h2>
+    <hr>
     <workinfo />
     
-    <h2>当社のエンジニア人物像／技術分野等<hr></h2>
+    <h2>Technical field / nationality of engineers currently belonging to our company</h2>
+    <hr>
     
-    <span>当社はアーカイブスタイルと称し、以下のような考え・行動ができるエンジニアの育成に力を入れています。</span>
+    <span>We call it an Archive style, and we are focusing on developing engineers who can think and act as follows.</span>
     
-        <h3>アーカイブスタイル</h3>
+        <h3>Archive style</h3>
         <v-card class="content" outlined>
     <v-list-item>
       <v-list-item-content>
-        <v-list-item-title>ポジティブシンキング（Positive Thinking）</v-list-item-title>
-        <v-list-item-title>自発的に行動</v-list-item-title>
-        <v-list-item-title>盛んな学習（技術学習）意欲</v-list-item-title>
-        <v-list-item-title>積極的なコニュニケーション</v-list-item-title>
-        <v-list-item-title>仲間と一緒に成長する協力性</v-list-item-title>
-        <v-list-item-title>業務内容を達成できる圧倒的なスキル</v-list-item-title>
+        <v-list-item-title>Positive Thinking</v-list-item-title>
+        <v-list-item-title>Act spontaneously</v-list-item-title>
+        <v-list-item-title>Active learning (technical learning) motivation</v-list-item-title>
+        <v-list-item-title>Active communication</v-list-item-title>
+        <v-list-item-title>Cooperation to grow with friends</v-list-item-title>
+        <v-list-item-title>Overwhelming skills that can achieve work content</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
             </v-card>
-        
+        <h3>Our engineer's image / technical field etc</h3>
+        <hr>
 <v-flex row justify-center>
 <chart />
 <chart2 />
 </v-flex>
-<h3>保有スキル（言語）<hr></h3>
-
+<h3>Owned skills (language)</h3>
+<hr>
 <skillsheet />
   </section>
 </template>
 <script>
-import Tline from '../../components/JP/Tline'
-import memberchart from '../../components/JP/member_chart'
-import Header from '../../components/JP/Header'
-import skillsheet from "../../components/JP/skillsheet"
-import membertable from "../../components/JP/member_table"
-import workinfo from "../../components/JP/workinfo"
-import chart2 from "../../components/JP/chart2"
-import chart from "../../components/JP/chart"
+import Tline from '../../components/EN/Tline'
+import memberchart from '../../components/EN/member_chart'
+import Header from '../../components/EN/Header'
+import skillsheet from "../../components/EN/skillsheet"
+import membertable from "../../components/EN/member_table"
+import workinfo from "../../components/EN/workinfo"
+import chart2 from "../../components/EN/chart2"
+import chart from "../../components/EN/chart"
 export default {
   components: {
       Tline,
@@ -79,8 +83,8 @@ export default {
       },  
   data: function(){
     return {
-      title: '株式会社アーカイブ',
-      subtitle: '進化するエンジニアグループ'
+      title: '',
+      subtitle: ''
     }
   },
   // created: function(){

@@ -19,7 +19,7 @@
          </v-list>
       </v-menu>
       <!--logo-->
-     <v-img max-width="35%" src="http://archive-asia.co.jp/wp-content/uploads/2016/12/logo-e1482967707769.jpg" />
+     <v-img max-width="30%" max-height="30%" src="https://github.com/zabioz/Archive-vue/blob/Dev_test/assets/img/logo.png?raw=true" />
    <!--title-->
     <v-col>
       <h1> {{head.title}} </h1>
@@ -30,7 +30,7 @@
       <v-row justify="space-around">
         <v-col xs="4">
        <v-icon>location_on</v-icon>
-     <li>〒115-0045東京都北区赤羽3-22-6-102</li>
+     <li>〒115-0045도쿄도 키타구 아카바네 3-22-6-102</li>
      </v-col>
      <v-col xs="4">
       <v-icon>phone_iphone</v-icon>
@@ -51,8 +51,8 @@
 export default {
  data: () =>({
       head:{
-        title: "株式会社アーカイブ",
-        subtitle: "進化するエンジニアグループ"
+        title: "주식회사 아카이브",
+        subtitle: "진화하는 엔지니어 그룹"
       },
 
       language_list: [
