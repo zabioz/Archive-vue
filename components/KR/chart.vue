@@ -1,10 +1,11 @@
 <template>
 
     <GChart
-      class="chart ma-2"
+      class="chart"
       type="PieChart"
       :data="chartData"
       :options="chartOptions"
+      style="width: 400px; height: 250px;"
     />
 
 </template>
@@ -18,9 +19,9 @@ export default {
     return {
       chartData: [
         ['contry', 'atai' ],
-        ['日本', 33.3],
-        ['韓国', 58.3],
-        ['中国', 8.3],
+        ['일본', 33.3],
+        ['한국', 58.3],
+        ['중국', 8.3],
       ],
       chartOptions:{
               colors:[
@@ -29,10 +30,10 @@ export default {
                 '#DB9A7A'
                 ],
                 backgroundColor:{
-                    fill:'#424242'
+                    fill:'transparent'
                 },
                 legend:{
-                    textStyle: {color: 'white'}
+                    textStyle: {color: '#1C1F24'}
                 }
       }
     };
@@ -41,9 +42,4 @@ export default {
 </script>
 <style>
 
-.chart{
-    width:350px;
-    height:400px;
-   
-}
 </style>
