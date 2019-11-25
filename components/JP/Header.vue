@@ -4,7 +4,7 @@
      <!--language menu-->
      <v-menu >
        <template v-slot:activator="{on}">
-         <v-icon style="float:right;" v-on="on">language</v-icon>
+         <v-icon style="float:right;" v-on="on">mdi-web</v-icon>
          </template>
          <v-list>  
          <v-list-item
@@ -19,7 +19,7 @@
          </v-list>
       </v-menu>
       <!--logo-->
-     <v-img max-width="35%" src="http://archive-asia.co.jp/wp-content/uploads/2016/12/logo-e1482967707769.jpg" />
+     <v-img max-width="30%" max-height="30%" src="https://app.aipo.com/portal/template/WikiFileRawScreen/ownerid/6/entityid/0/attachmentindex/10/f/9aafaf63-bf83-4c16-b73f-806ab62c29ca.png" />
    <!--title-->
     <v-col>
       <h1> {{head.title}} </h1>
@@ -29,15 +29,15 @@
     <v-card class="content" outlined dark style="background-color:#5b88ee">
       <v-row justify="space-around">
         <v-col xs="4">
-       <v-icon>location_on</v-icon>
+       <v-icon>mdi-map-marker</v-icon>
      <li>〒115-0045東京都北区赤羽3-22-6-102</li>
      </v-col>
      <v-col xs="4">
-      <v-icon>phone_iphone</v-icon>
+      <v-icon>mdi-cellphone-iphone</v-icon>
       <li>03-5939-4070</li>
      </v-col>
      <v-col xs="4">
-      <v-icon>mail_outline</v-icon>
+      <v-icon>mdi-email-outline</v-icon>
       <li>info@archive-asia.co.jp</li>
      </v-col>
      </v-row>

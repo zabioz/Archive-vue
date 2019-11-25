@@ -3,33 +3,33 @@
 <div>
     <ul class="ttext font-weight-bold ma-2">
         <v-chip large label outlined color="primary">
-            주주총회
+            General meeting of shareholders
         </v-chip>
         <li style="list-style:none" class="ma-2">
             <v-chip class="vtext" label outlined color="primary" style="margin-left:70px;">
-            감사
+            Auditor
             </v-chip>
         </li>
     </ul>
     <ul class="ttext font-weight-bold ma-2">
         <v-chip large label outlined color="primary">
-            이사위원회
+            Board of Directors
         </v-chip>
     </ul>
 
     <li style="list-style:none" class="ma-2">
         <v-chip class="vtext" label outlined color="primary" style="margin-left:100px;">
-            영업 및 총무
+            Sales / General Affairs
         </v-chip>
     </li>
     <ul>
         <v-chip large class="ttext" label outlined color="primary">
-            대표 이사
+            CEO
         </v-chip>
     </ul>
     <li style="list-style:none" class="ma-2">
         <v-chip class="vtext" label outlined color="primary" style="margin-left:100px;">
-            IT 사업부
+            IT Division
         </v-chip>
     </li>
     <div class="d-flex flex-column" style="margin-left:170px">
@@ -37,13 +37,13 @@
             SAP/R3
         </v-chip>
         <v-chip small class="ma-1" label color="primary" >
-            금융 · 유통
+            Finance / Distribution
         </v-chip>
         <v-chip small class="ma-1" label color="primary" >
-            web개발
+            web development
         </v-chip>
         <v-chip small class="ma-1" label color="primary" >
-            스마트폰 디바이스
+            Smartphone device
         </v-chip>
     </div>
 </div>

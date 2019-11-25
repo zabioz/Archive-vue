@@ -1,6 +1,6 @@
 <template >
-    <v-card class="content ma-2" outlined>
-      <v-list-item two-line v-for="n in item">
+    <v-card class="content ma-2" outlined color="#5b88ee">
+      <v-list-item two-line v-for="n in item" class="white text--primary">
         <v-list-item-content>
         <v-list-item-title> {{n.title}} </v-list-item-title>
         <v-list-item-subtitle> {{n.content}} </v-list-item-subtitle>
@@ -26,7 +26,7 @@ data: function(){
             {title:'ETC',
             content:'SAP/R3, COBOL'
             },
-            {title:'당사에 관심을 가져 주시면 감사하겠습니다. 부담없이 연락해주십시오.',
+            {title:'We hope you are interested in our company. Please feel free to contact me.',
             content:''
             }
         ]
