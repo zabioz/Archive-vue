@@ -19,7 +19,7 @@
          </v-list>
       </v-menu>
       <!--logo-->
-     <v-img max-width="30%" max-height="30%" src="https://app.aipo.com/portal/template/WikiFileRawScreen/ownerid/6/entityid/0/attachmentindex/10/f/9aafaf63-bf83-4c16-b73f-806ab62c29ca.png"/>
+     <v-img max-width="30%" max-height="30%" src="https://github.com/zabioz/Archive-vue/blob/Dev_test/assets/img/logo.png?raw=true" />
    <!--title-->
     <v-col>
       <h1> {{head.title}} </h1>
