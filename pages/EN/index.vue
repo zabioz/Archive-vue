@@ -2,23 +2,23 @@
   <section class="font">
     <Header/>
     
-    <h2>Company Profile</h2>
-    <hr>
+    <h2>Company Profile<hr></h2>
+    
     <span>In an era of rapid change, we aim to evolve daily as an IT engineer group with high technology and global sense, and to become a company that can grow with you through IT technology.</span>
     <membertable />
-    <h2>Organization chart</h2>
-    <hr>
+    <h2>Organization chart<hr></h2>
+    
     <memberchart />
-    <h2> History </h2>
-    <hr>
+    <h2> History <hr></h2>
+    
     <!--Time Line-->
     <Tline />
-    <h2> Business introduction </h2>
-    <hr>
+    <h2> Business introduction <hr></h2>
+    
     <workinfo />
     
-    <h2>Technical field / nationality of engineers currently belonging to our company</h2>
-    <hr>
+    <h2>Technical field / nationality of engineers currently belonging to our company <hr></h2>
+    
     
     <span>We call it an Archive style, and we are focusing on developing engineers who can think and act as follows.</span>
     
@@ -35,14 +35,13 @@
       </v-list-item-content>
     </v-list-item>
   </v-card>
-        <h3>Our engineer's image / technical field etc</h3>
-        <hr>
+        <h3>Our engineer's image / technical field etc <hr></h3>
+        
 <v-flex row justify-center>
 <chart />
 <chart2 />
 </v-flex>
-<h3>Owned skills (language)</h3>
-<hr>
+<h3>Owned skills (language) <hr></h3>
 <skillsheet />
   </section>
 </template>
