@@ -13,8 +13,11 @@
                 v-text="year.year">
                 </span>
             </template>
-            <v-card class="vcard" :flat="year.flat" v-html="year.card"></v-card>
+            <v-card class="vcard pa-0" outlined :flat="year.flat" color="#5b88ee">
+            <v-card-text v-html="year.card" v-show="year.card" class="white text--primary"></v-card-text>
+            </v-card>
             <div class="vtext" v-html="year.text">
+                
             </div>
         </v-timeline-item>
     </v-timeline>

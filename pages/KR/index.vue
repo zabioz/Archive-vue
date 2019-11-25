@@ -8,24 +8,9 @@
     <membertable />
     <h2>조직도<hr></h2>
     <memberchart />
-    <v-img
-    position
-    max-width="700"
-    max-height="1000"
-    src="https://zabioz.github.io/Archive_HP/img/4.png"
-    > 
-    </v-img>
     <h2> 연혁 <hr></h2>
     <!--Time Line-->
     <Tline />
-
-    <!-- <v-img
-    position
-    max-width="800"
-    max-height="1100"
-    src="https://zabioz.github.io/Archive_HP/img/3.png"
-    >
-    </v-img> -->
     <h2> 사업소개 <hr></h2>
     
     <workinfo />
@@ -35,8 +20,8 @@
     <span>당사는 아카이브 스타일이라 칭하고 다음과 같은 생각과 행동을 하는 엔지니어의 육성에 힘을 쏟고 있습니다.</span>
     
         <h3>아카이브 스타일</h3>
-        <v-card class="content" outlined>
-    <v-list-item>
+        <v-card class="content" outlined color="#5b88ee">
+    <v-list-item class="white">
       <v-list-item-content>
         <v-list-item-title>긍정적 사고 (Positive Thinking)</v-list-item-title>
         <v-list-item-title>자발적 행동</v-list-item-title>
@@ -122,7 +107,8 @@ span{
   font-family: 'Hiragino Kaku Gothic ProN';
 }
 hr{
-  background-color:rgba(0, 0, 0, 0.205);
+  margin:0.2em;
+  background-color:#5b88ee;
   border:none;
   height:1px;
 }

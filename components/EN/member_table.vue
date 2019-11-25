@@ -1,31 +1,33 @@
 <template>
 <v-layout>
-    <v-card width=100% outlined text-center ma-2>
-<table >
-       <tr> 
-        <th>Establishment</th> <td>2006 / 10 / 10</td>
+    <v-card width=100% outlined text-center ma-2 color="primary">
+<v-simple-table>
+       <tr>
+        <th class="title">Establishment</th><td>2006 / 10 / 10</td>
         </tr>
             <tr>
-               <th>Capital</th> <td>6,000,000¥</td>
+               <th class="title">Capital</th> <td>6,000,000¥</td>
             </tr>
             <tr>
-                <th>Officer</th>
+                <th class="title">Officer</th>
                 <td>
-                    <li>CEO 角田 元輝</li>
-                    <li>Director 鈴木 隆志</li>
-                    <li>Director 李 埈昊</li>
-                    <li>Director 李 在殷</li>
-                    <li>Director 高 成洙</li>
-                    <li>Auditor 柴崎 秀明（Tax accountant)</li>
+                    <dd><v-icon>mdi-account-tie</v-icon>CEO 角田 元輝</dd>
+                    <dd><v-icon>mdi-account-outline</v-icon>Director 鈴木 隆志</dd>
+                    <dd><v-icon>mdi-account-outline</v-icon>Director 李 埈昊</dd>
+                    <dd><v-icon>mdi-account-outline</v-icon>Director 李 在殷</dd>
+                    <dd><v-icon>mdi-account-outline</v-icon>Director 高 成洙</dd>
+                    <dd><v-icon>mdi-account</v-icon>Auditor 柴崎 秀明（Tax accountant)</dd>
                 </td>
             </tr>
              <tr>
-                 <th>Business content</th><td>Software development centered on foreign national IT engineers</td>
+                 <th class="title">Business content</th>
+                 <td>Software development centered on foreign national IT engineers</td>
             </tr>
               <tr>
-                  <th>Related business</th><td>and foreign national IT engineer support business</td>
+                  <th class="title">Related business</th>
+                  <td>and foreign national IT engineer support business</td>
                 </tr>
-    </table>
+    </v-simple-table>
     </v-card>
 </v-layout>
 </template>
@@ -41,9 +43,6 @@ export default {
 }
 </script>
 <style>
-th {
-    padding:0.4em;
-}
 td {
     padding-left: 3em;
 }

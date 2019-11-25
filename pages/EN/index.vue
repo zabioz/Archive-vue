@@ -9,25 +9,10 @@
     <h2>Organization chart</h2>
     <hr>
     <memberchart />
-    <v-img
-    position
-    max-width="700"
-    max-height="1000"
-    src="https://zabioz.github.io/Archive_HP/img/4.png"
-    > 
-    </v-img>
     <h2> History </h2>
     <hr>
     <!--Time Line-->
     <Tline />
-
-    <!-- <v-img
-    position
-    max-width="800"
-    max-height="1100"
-    src="https://zabioz.github.io/Archive_HP/img/3.png"
-    >
-    </v-img> -->
     <h2> Business introduction </h2>
     <hr>
     <workinfo />
@@ -38,8 +23,8 @@
     <span>We call it an Archive style, and we are focusing on developing engineers who can think and act as follows.</span>
     
         <h3>Archive style</h3>
-        <v-card class="content" outlined>
-    <v-list-item>
+  <v-card class="content" outlined color="#5b88ee">
+    <v-list-item class="white">
       <v-list-item-content>
         <v-list-item-title>Positive Thinking</v-list-item-title>
         <v-list-item-title>Act spontaneously</v-list-item-title>
@@ -49,7 +34,7 @@
         <v-list-item-title>Overwhelming skills that can achieve work content</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-            </v-card>
+  </v-card>
         <h3>Our engineer's image / technical field etc</h3>
         <hr>
 <v-flex row justify-center>
@@ -87,13 +72,6 @@ export default {
       subtitle: ''
     }
   },
-  // created: function(){
-  //   setInterval(() => {
-  //     const today = new Date();
-  //     this.today = today.getHours() + ":" +today.getMinutes() + ":" + today.getSeconds()
-  //   })
-  // },
-  
   methods:{
     
   }
@@ -122,7 +100,8 @@ span{
   font-family: 'Hiragino Kaku Gothic ProN';
 }
 hr{
-  background-color:rgba(0, 0, 0, 0.205);
+  margin:0.2em;
+  background-color:#5b88ee;
   border:none;
   height:1px;
 }

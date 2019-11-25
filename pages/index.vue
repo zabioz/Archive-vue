@@ -30,15 +30,15 @@
     <span>当社はアーカイブスタイルと称し、以下のような考え・行動ができるエンジニアの育成に力を入れています。</span>
     
         <h3>アーカイブスタイル</h3>
-        <v-card class="content" outlined>
-    <v-list-item>
+        <v-card class="content" outlined color="#5b88ee">
+    <v-list-item class="white">
       <v-list-item-content>
-        <v-list-item-title>ポジティブシンキング（Positive Thinking）</v-list-item-title>
-        <v-list-item-title>自発的に行動</v-list-item-title>
-        <v-list-item-title>盛んな学習（技術学習）意欲</v-list-item-title>
-        <v-list-item-title>積極的なコニュニケーション</v-list-item-title>
-        <v-list-item-title>仲間と一緒に成長する協力性</v-list-item-title>
-        <v-list-item-title>業務内容を達成できる圧倒的なスキル</v-list-item-title>
+        <v-list-item-subtitle>ポジティブシンキング（Positive Thinking）</v-list-item-subtitle>
+        <v-list-item-subtitle>自発的に行動</v-list-item-subtitle>
+        <v-list-item-subtitle>盛んな学習（技術学習）意欲</v-list-item-subtitle>
+        <v-list-item-subtitle>積極的なコニュニケーション</v-list-item-subtitle>
+        <v-list-item-subtitle>仲間と一緒に成長する協力性</v-list-item-subtitle>
+        <v-list-item-subtitle>業務内容を達成できる圧倒的なスキル</v-list-item-subtitle>
       </v-list-item-content>
     </v-list-item>
             </v-card>
@@ -113,7 +113,8 @@ span{
   font-family: 'Hiragino Kaku Gothic ProN';
 }
 hr{
-  background-color:rgba(0, 0, 0, 0.205);
+  margin:0.2em;
+  background-color:#5b88ee;
   border:none;
   height:1px;
 }

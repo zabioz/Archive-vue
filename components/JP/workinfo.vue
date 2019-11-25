@@ -1,6 +1,6 @@
 <template >
-    <v-card class="ma-2" outlined >
-      <v-list-item three-line v-for="n in item">
+    <v-card class="ma-2" outlined color="#5b88ee">
+      <v-list-item three-line v-for="n in item" class="white text--primary">
         <v-list-item-content>
         <v-list-item-title> {{n.title}} </v-list-item-title>
         <v-list-item-subtitle > {{n.content}} </v-list-item-subtitle>

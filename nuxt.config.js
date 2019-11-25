@@ -50,10 +50,10 @@ export default {
   vuetify: {
     defaultAssets:{
       font: true,
-      icons: 'md'
+      icons: 'mdi'
     },
     icons: {
-      iconfont: 'md'
+      iconfont: 'mdi'
     },
     customVariables: ['~/assets/variables.scss'],
   },

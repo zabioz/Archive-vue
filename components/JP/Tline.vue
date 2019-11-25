@@ -13,8 +13,11 @@
                 v-text="year.year">
                 </span>
             </template>
-            <v-card class="vcard" :flat="year.flat" v-html="year.card"></v-card>
+            <v-card class="vcard pa-0" outlined :flat="year.flat" color="#5b88ee">
+            <v-card-text v-html="year.card" v-show="year.card" class="white text--primary"></v-card-text>
+            </v-card>
             <div class="vtext" v-html="year.text">
+                
             </div>
         </v-timeline-item>
     </v-timeline>
@@ -24,12 +27,12 @@
 export default {
     data:() =>({
         card:true,
-        
+        view:true,
         years:[
             {   size: false,
                 color:"primary",
                 year:"2006",
-                card:`<div style="margin:0.4em; color:"rgba(0, 0, 0, 0.54)"><h3 style:"rgba(0, 0, 0, 0.87)">株式会社アーカイブ設立</h3><li>東京都北区赤羽南１−２１−３カラムビール２F本店所在地を置く</li><li>資本金１００万円</li><li>SAP社R/３を使用したシステム開発、Webシステム開発、金融・流通関係システム開発を中心としたソフトウェア関連事業を開始</li></div>`
+                card:`<div color:"rgba(0, 0, 0, 0.54)"><h3 style:"rgba(0, 0, 0, 0.87)">株式会社アーカイブ設立</h3><li>東京都北区赤羽南１−２１−３カラムビール２F本店所在地を置く</li><li>資本金１００万円</li><li>SAP社R/３を使用したシステム開発、Webシステム開発、金融・流通関係システム開発を中心としたソフトウェア関連事業を開始</li></div>`
             },
             {
                 size: true,
@@ -46,10 +49,10 @@ export default {
                 text:`<li>ソフトウェア開発関連事業の新規分野として、スマートフォンアプリ開発（アンドロイド分野）を開始</li><li>ソフトウェア開発関連事業の新規分野として、スマートフォンアプリ開発（IOS分野）を開始</li>`
             },
             {
-                
+                size: false,
                 color:"primary",
                 year:"2017",
-                card:'<div style="margin:0.4em;"><h3 style="rgba(0, 0, 0, 0.87)">外国籍ITエンジニアを中心とした会社開始</h3></div>'
+                card:'<div><h3 style="rgba(0, 0, 0, 0.87)">外国籍ITエンジニアを中心とした会社開始</h3></div>'
             },
              {
                 flat: true,
@@ -68,7 +71,7 @@ methods: {
 </script>
 <style>
 .vcard {
-    white-space: pre-wrap;
+    
     list-style: square;
 }
 
