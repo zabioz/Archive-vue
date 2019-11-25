@@ -7,7 +7,6 @@ npm-debug.log
 yarn-error.log
 
 # other
-.nuxt
 dist
 .vscode
 .idea
